@@ -2,6 +2,6 @@
 {
     public interface IRegisterUser
     {
-        bool Register(string email, string password);
+        bool Register(string email, string password, string password2);
     }
 }

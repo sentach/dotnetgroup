@@ -5,7 +5,7 @@ namespace Bussines
 {
     public class RegisterUser : IRegisterUser
     {        
-        public bool Register(string email, string password)
+        public bool Register(string email, string password, string password2)
         {
             var checkemail = new Regex("^(\\w+)@(\\w+).(\\w+)$", RegexOptions.Compiled);
             if(!checkemail.IsMatch(email))
