@@ -13,6 +13,12 @@ namespace Bussines
                 return false;
             }
 
+            if(password.Length<10)
+            {
+                return false;
+            }
+            if (password != password2) { return false; }
+
             return true;
         }
     }
