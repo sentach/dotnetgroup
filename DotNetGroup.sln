@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetGroup", "DotNetGroup\DotNetGroup.csproj", "{88310570-93DF-40BB-90CA-AB0D869A3990}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetGroup", "DotNetGroup\DotNetGroup.csproj", "{88310570-93DF-40BB-90CA-AB0D869A3990}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{B99374DE-2D53-4337-B564-CD4CC1A9F570}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{B99374DE-2D53-4337-B564-CD4CC1A9F570}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infraestructure", "Infraestructure\Infraestructure.csproj", "{73E7CCA1-0DB3-4012-A578-82720F105CBB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infraestructure", "Infraestructure\Infraestructure.csproj", "{73E7CCA1-0DB3-4012-A578-82720F105CBB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bussines", "Bussines\Bussines.csproj", "{DFE2211F-1B77-4C7D-B319-A5D1D05B1351}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test", "Test\Test.csproj", "{9544B381-C312-463E-8E2E-D1E58F998761}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{73E7CCA1-0DB3-4012-A578-82720F105CBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73E7CCA1-0DB3-4012-A578-82720F105CBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73E7CCA1-0DB3-4012-A578-82720F105CBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFE2211F-1B77-4C7D-B319-A5D1D05B1351}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFE2211F-1B77-4C7D-B319-A5D1D05B1351}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFE2211F-1B77-4C7D-B319-A5D1D05B1351}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFE2211F-1B77-4C7D-B319-A5D1D05B1351}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9544B381-C312-463E-8E2E-D1E58F998761}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9544B381-C312-463E-8E2E-D1E58F998761}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9544B381-C312-463E-8E2E-D1E58F998761}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9544B381-C312-463E-8E2E-D1E58F998761}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
